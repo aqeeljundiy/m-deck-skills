@@ -1,0 +1,7 @@
+{
+  "name": "milkyano",
+  "owner": { "name": "Milkyano Digital" },
+  "plugins": [
+    { "name": "milkyano-deck-skill", "source": "./", "description": "Milkyano deck and report skill." }
+  ]
+}
