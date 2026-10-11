@@ -1,5 +1,5 @@
 {
-  "name": "milkyano-deck-skill",
-  "description": "Build Milkyano Digital decks and reports with the Milkyano design system, chart and data-highlighting rules.",
-  "version": "1.0.0"
+  "name": "agency-pitch-deck-skill",
+  "description": "Agency pitch deck skill: builds marketing-agency pitches, audits and performance reports with a full design system, chart and data-highlighting rules.",
+  "version": "1.1.0"
 }

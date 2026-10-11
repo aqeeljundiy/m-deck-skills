@@ -1,27 +1,36 @@
-# Milkyano Deck Skill
+# Agency Pitch Deck Skill
 
-A Claude skill that builds Milkyano Digital decks (pitches, audits, performance, social, creative and growth reports) using the Milkyano design system: colours for light and dark mode, Plus Jakarta Sans, content blocks, chart and highlighting rules, number formats, client co-branding and Google Slides export.
+A Claude skill for building marketing-agency decks: pitches, marketing audits, performance reports, social and creative reports, growth strategies and client co-branded decks.
+
+It gives Claude a complete deck system:
+
+- **Design system** — light and dark mode colours with fixed meanings, one typeface (Plus Jakarta Sans), spacing, cards, chips and buttons.
+- **Content blocks** — about 30 slide types for agency work: the client question, platform vs business view, measurement gaps, channel mix, portfolio, creative ranking, signals, verdicts, priorities, roadmaps, action tables, investment.
+- **Chart rules** — which chart answers which question, colour by meaning, axes, overlapping and grouped bars, small multiples, one highlight per chart, annotations, no pies.
+- **Numbers and words** — currency, ROAS, change and range formats, a glossary and a takeaway-headline formula.
+- **Client co-branding** — how a client's brand colour slots in without breaking the system.
+- **QA and export** — a checklist before hand-off and a clean path into Google Slides.
+
+The bundled design system is based on Milkyano Digital's brand; swap `references/tokens.json` and the brand book to use your own.
 
 ## Install
 
-**Claude Code (as a plugin):**
+**Claude Code (plugin):**
 
 ```
 /plugin marketplace add aqeeljundiy/m-deck-skills
-/plugin install milkyano-deck-skill@milkyano
+/plugin install agency-pitch-deck-skill@m-deck-skills
 ```
 
-**Claude Code (manual):** copy `skills/milkyano-deck-skill` into `~/.claude/skills/`.
+**Claude Code (manual):** copy `skills/agency-pitch-deck-skill` into `~/.claude/skills/`.
 
-**claude.ai:** zip the `skills/milkyano-deck-skill` folder and upload it under Settings › Capabilities › Skills.
+**claude.ai:** zip the `skills/agency-pitch-deck-skill` folder and upload it under Settings › Capabilities › Skills.
 
 ## Use
 
-Ask for a Milkyano deck ("make a Milkyano performance report for <client>") or run `/milkyano-deck-skill`.
+Ask for a deck ("make a performance report deck for <client>", "build an agency pitch for <brand>") or run `/agency-pitch-deck-skill`.
 
 ## Contents
 
-- `skills/milkyano-deck-skill/SKILL.md` — workflow, hard rules, QA checklist
-- `skills/milkyano-deck-skill/references/` — offline copy of the design system (brand book, charts, content blocks, numbers and words, co-branding and export, tokens)
-
-The live design system and the visual guide deck are linked from `SKILL.md` (private claude.ai artifacts; share them with the team from their Share menu).
+- `skills/agency-pitch-deck-skill/SKILL.md` — workflow, hard rules, QA checklist
+- `skills/agency-pitch-deck-skill/references/` — the design system: brand book, charts, content blocks, numbers and words, co-branding and export, tokens

@@ -1,6 +1,6 @@
 ---
-name: milkyano-deck-skill
-description: Build Milkyano Digital decks — pitches, marketing audits, performance reports, social/creative reports, growth strategies, client co-branded decks — following the Milkyano design system (navy/blue, Plus Jakarta Sans, light and dark mode) and its chart, highlighting and data-display rules. Use whenever the user asks for a Milkyano deck, slides or report for a client, a marketing/performance report deck, or to check or fix a deck against the Milkyano guidelines, even if they don't say "skill".
+name: agency-pitch-deck-skill
+description: Agency pitch deck skill. Builds marketing-agency decks — pitches, marketing audits, performance reports, social/creative reports, growth strategies, client co-branded decks — following the Milkyano design system (navy/blue, Plus Jakarta Sans, light and dark mode) and its chart, highlighting and data-display rules. Use whenever the user asks for a Milkyano deck, slides or report for a client, a marketing/performance report deck, or to check or fix a deck against the Milkyano guidelines, even if they don't say "skill".
 ---
 
 # Milkyano decks

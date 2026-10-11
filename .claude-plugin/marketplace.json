@@ -1,7 +1,7 @@
 {
-  "name": "milkyano",
-  "owner": { "name": "Milkyano Digital" },
+  "name": "m-deck-skills",
+  "owner": { "name": "aqeeljundiy" },
   "plugins": [
-    { "name": "milkyano-deck-skill", "source": "./", "description": "Milkyano deck and report skill." }
+    { "name": "agency-pitch-deck-skill", "source": "./", "description": "Agency pitch deck skill for marketing pitches, audits and reports." }
   ]
 }
