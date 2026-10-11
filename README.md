@@ -7,7 +7,7 @@ A Claude skill that builds Milkyano Digital decks (pitches, audits, performance,
 **Claude Code (as a plugin):**
 
 ```
-/plugin marketplace add aqeeljundiy/milkyano-deck-skill
+/plugin marketplace add aqeeljundiy/m-deck-skills
 /plugin install milkyano-deck-skill@milkyano
 ```
 
