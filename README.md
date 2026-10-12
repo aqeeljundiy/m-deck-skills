@@ -34,3 +34,4 @@ Ask for a deck ("make a performance report deck for <client>", "build an agency 
 
 - `skills/agency-pitch-deck-skill/SKILL.md` — workflow, hard rules, QA checklist
 - `skills/agency-pitch-deck-skill/references/` — the design system: brand book, charts, content blocks, numbers and words, co-branding and export, tokens
+- `skills/agency-pitch-deck-skill/references/verdict-panel.md` — the Good / Bad / Mixed verdict every analysis slide ends in (What It Means · Why · What We Do), with markup and a space budget

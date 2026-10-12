@@ -36,7 +36,7 @@ Colour never carries meaning alone: a gain also shows ▲ or a word, a risk show
 1. **Title = takeaway** — card-title style above the chart: "Shopee returns 3× more per rupiah", not "ROAS by channel".
 2. **Direct labels** — values at the bar end (24–30px, 700), names on the left. No legend.
 3. **One benchmark max** — dashed `risk`, 3px, labelled.
-4. **Source line** — label style, `muted`, under every chart: "Source: Shopee Seller Centre · Mar 2026". Estimates say "Estimated" or "Illustrative".
+4. **Source** — in the slide's speaker notes, not under the chart: "Source: Shopee Seller Centre · Mar 2026". On the slide, keep only a caveat the chart would mislead without (estimate, small sample, unmappable share). Illustrative data says "Illustrative" on the slide.
 5. **Geometry** — bars `radius-bar` 12px, 36–56px thick, 16–22px apart; bar length is proportional to the value (check it: a 44% bar is never shorter than a 39% bar).
 6. **Frame** — chart sits in a `panel` card (`radius-card`, `pad-card`).
 

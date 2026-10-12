@@ -4,9 +4,11 @@ A Milkyano deck is assembled from these blocks. Each block has one job, one layo
 
 ## Slide frame (every content slide)
 
-- **Chip** at the top margin: "● <Block name>" or "● <Section> · <n> of <total>".
+- **Chip** at the top margin, in Title Case: "● <Block Name>" or "● <Section> · <n> of <total>" (e.g. "● 03 · Who Comes Back").
 - **Headline** under it: two lines, line 1 `ink` (the fact), line 2 `focus` (the turn). Takeaway, not topic.
 - **Body**: one block from this page.
+- **Verdict panel** on every analysis slide: ▲ Good / ▼ Bad / ● Mixed, then What It Means · Why · What We Do (see `verdict-panel.md`). Plan slides skip it.
+- **Sources** in the speaker notes (`<aside>`), not on the slide. A one-line caveat stays on the slide only when the slide would mislead without it.
 - **Footer** pinned 56px from bottom: left "MILKYANO" (label, 3px tracking, `muted`); right "<Client> · <page>". Page numbers on every slide, in order, starting at 01 on the cover.
 - Section openers use the **cover** layout with the section name ("Marketing Audit", "Performance Report", "Social Media Report", "Creative Report", "Growth Strategy", "Technical Action Plan").
 
@@ -18,7 +20,7 @@ A Milkyano deck is assembled from these blocks. Each block has one job, one layo
 
 | Block | Job | Layout |
 |---|---|---|
-| **Cover / section opener** | Name the deck or section | Chip "Client · Month Year", 2-line title (cover style), muted one-line summary, buttons only on the main cover. Dark mode for pitches. |
+| **Cover / section opener** | Name the deck or section | Chip "Milkyano Digital · Month Year", 2-line title (cover style) that plainly names it, "<Client> <Deck type>" (e.g. "Acme Performance / Marketing Audit"), not a clever line. Then one muted sentence: what's inside, the period, and that it ends in fixes. Buttons only on a pitch cover. Dark mode for pitches. |
 | **The question** | Set the agenda | One big question in a panel, then 4–5 sub-question cards: number, question, "→ <answer area>". Each later section's chip repeats its number ("● 02 · How will we spend?"). |
 
 ## Numbers
@@ -28,7 +30,7 @@ A Milkyano deck is assembled from these blocks. Each block has one job, one layo
 | **Stat row** | 2–4 headline figures | number style, muted label under, optional delta badge. The problem stat in `risk`. |
 | **Before → after** | One metric that moved | before (`context`) → after (`focus`/`risk`), label + period under. |
 | **Stat strip** | A total split by location/segment | 4–7 tiles in a panel; the exception tile (Unallocated) in `risk` with "of <total>". |
-| **Executive summary** | Period vs period | Table (Charts §4): metrics as rows, Current / Prior / YoY as columns, current column bold; one takeaway card under it. |
+| **Executive summary** | Period vs period | Table (Charts §4): metrics as rows, Current / Prior / YoY as columns, current column bold; verdict panel beside it. |
 
 ## Audit
 
@@ -85,10 +87,11 @@ A Milkyano deck is assembled from these blocks. Each block has one job, one layo
 | **Investment** | Pricing | Two plan cards; the recommended one dark with a "Recommended" gain badge. Prices in number style; inclusions as ✓ list. |
 | **Statement / close** | The one sentence to remember | Dark slide, cover style, the sentence in two tones; optional 5-stage system strip above it. |
 
-## Callouts (only three kinds)
+## Callouts (only four kinds)
 
-1. **Do line** — "**Do:** <action>", `focus` label, inside a card or under a chart.
-2. **Takeaway card** — `panel` card, one sentence, the first clause bold `focus`. Max one per slide.
-3. **Note bar** — slim bar for definitions ("'Current' below = …"), `focus-wash` fill, label style.
+1. **Verdict panel** — required on analysis slides: tag (▲ Good / ▼ Bad / ● Mixed) + What It Means · Why · What We Do. Side panel (600px) or bottom strip. See `verdict-panel.md`.
+2. **Do line** — "**Do:** <action>", `focus` label, inside a card or under a chart.
+3. **Takeaway card** — `panel` card, one sentence, the first clause bold `focus`. Max one per slide; not needed when a verdict panel is present.
+4. **Note bar** — slim bar for definitions ("'Current' below = …"), `focus-wash` fill, label style.
 
 Never: black bars with white text, brown bars, red footnotes, "Key Highlight:" boxes, quotes in italic boxes.
