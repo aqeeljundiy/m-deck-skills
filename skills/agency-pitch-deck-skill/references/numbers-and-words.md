@@ -37,6 +37,7 @@ Never a topic label ("Channel Performance"), never a question without an answer,
 - Sentences under 20 words. One idea each.
 - Active, specific verbs: shift, cut, test, fix, scale.
 - Name the source of every number. "Platform-reported" vs "business data" when both appear.
-- Estimates are labelled "Estimated" or "Illustrative"; extrapolations get an asterisk note in the source line, never a red footnote.
+- Estimates are labelled "Estimated" or "Illustrative"; extrapolations get the formula in the speaker notes, never a red footnote.
+- Verdict words: ▲ Good, ▼ Bad, ● Mixed. Say which, and why, on every analysis slide.
 - No hype, no emoji, no exclamation marks.
 - Indonesian clients: numbers stay in this format; copy may be Bahasa Indonesia, same rules.
